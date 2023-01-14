@@ -44,8 +44,7 @@ def calc(num_1, num_2, choice):
           print(num_1, " / ", num_2, " = ", divide(num_1, num_2)) 
       except ZeroDivisionError :
          print("На нуль ділити не можна!")
-      logging.info(f"num_1 = {num_1},num_2 = {num_2},,choice = {choice}")
-      result = num_1 / num_2
+      
      
    else:
     logging("This is an error") 
